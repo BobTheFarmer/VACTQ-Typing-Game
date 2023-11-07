@@ -91,7 +91,7 @@ function checkTypingBox() {
 
         //Update pos in api
         localPos += 100;
-        updatePosition(currentPosition + 55, localPos)
+        updatePosition(currentPosition + 51, localPos)
     }
 }
 
