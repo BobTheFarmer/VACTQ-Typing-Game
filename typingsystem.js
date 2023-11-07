@@ -11,8 +11,8 @@ currentPosition = 4;
 //positions = getAPIData();
 async function getAPIData() {
     try {
-        const response = await fetch('localhost:8085/api/ptest/');
-        console.log(response);
+        const response = await fetch('http://localhost:8085/api/ptest/');
+        //console.log(response);
         const data = await response.json();
 
         // Extract positions and store in a list
